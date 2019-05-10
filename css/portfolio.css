@@ -599,10 +599,14 @@ p.timeline-text{
   }
 
   .titleh2{
-  	font-size: 1.5rem !important;
+  	font-size: 1.2rem !important;
   }
 
   .titleh2 span{
-  	font-size: 1.3rem;
+  	font-size: 1.1rem;
+  }
+
+  h1{
+  	font-size: 2.5rem;
   }
 }
