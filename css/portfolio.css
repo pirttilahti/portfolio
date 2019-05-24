@@ -555,7 +555,9 @@ p.lead{
 	p.lead{
 		font-size: 0.6em;
 	}
+}
 
+@media screen and (max-width: 767px) {
 	.project-main-img{
 		height: 200px;
 	}
