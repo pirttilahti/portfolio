@@ -173,7 +173,7 @@ display: block;
 
 /*--Header--*/
 header{
-background: url(images/bg.jpg) no-repeat center center fixed; 
+background-image: url("img/user-note.JPG") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -182,6 +182,11 @@ background: url(images/bg.jpg) no-repeat center center fixed;
 }
 
 /*--project--*/
+
+a.proj:hover{
+	text-decoration: none;
+	opacity: 0.5;
+}
 
 div.projects{
 	background-color: #f4f4f4;
@@ -216,6 +221,41 @@ img.imgdown{
 width: 100%;
 }
 
+
+.project-main-img-holder{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.project-main-img{
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.kaava-main-img{
+	background-image: url(../img/kaava-mockup.jpg);
+}
+
+.gaze-main-img{
+	background-image: url(../img/pointr.PNG);
+}
+
+.light-main-img{
+	background-image: url(../img/lightprototype.JPG);
+}
+
+.wone-main-img{
+	background-image: url(../img/wonephone.JPG);
+}
+
+.library-main-img{
+	background-image: url(../img/tamcatbeta.JPG);
+}
+
+
 .button-position{
 	    width: 100%;
     position: absolute;
@@ -228,12 +268,19 @@ width: 100%;
 }
 
 .back-up{
-	color: white;
+	color: #020202;
 	text-align: center;
 	vertical-align: middle;
-	height: 10em;
+	height: auto;
 	padding-top: 3em;
 	margin: auto;
+}
+
+.back-up:hover{
+	background-color: #2ad083;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .btn-secondary{
@@ -312,7 +359,7 @@ div.method{
 }
 
 .method p{
-	line-height: 2vh;
+	line-height: 1.2em;
 	margin: 0.8rem;
 }
 
@@ -371,10 +418,45 @@ div.contact{
 
 /*--Project---*/
 
+.container.project{
+	padding-left: 6em;
+	padding-right: 6em;
+}
+
+
 .featurette-heading{
-	line-height: 1.1em !important;
-	padding-top: 3em;
-	padding-right: 5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	color: #2ad083;
+}
+
+.project-details{
+	padding: 2em;
+	background: #363636;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.details-heading{
+	padding: 0.5em;
+	color: #FFFFFF;
+}
+
+.details-subheading{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	color: #38ee7d;
+}
+
+.details-description{
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #eee;
+	font-size: 0.8em;
+}
+
+.img-fluid{
+	padding: 2em;
 }
 
 div.featurette-image{
@@ -382,15 +464,19 @@ div.featurette-image{
 }
 
 .text-muted{
- color: #f6ff00 !important;
+ color: #9E9E9E !important;
 }
 
 .myproject{
-	background-color: #0f1c49;
-	color: white;
+	background: #ffffff;
+	box-shadow: #a3a3a3 1px 1px 9px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
 }
+
 #myproject{
-	background-color: #0f1c49;
+	
+	border-radius: 6px;
 }
 
 .logos{
@@ -413,7 +499,6 @@ div.featurette-image{
 }
 
 .projectholder{
-	background: white;
     margin-bottom: 36px;
     box-shadow: #00000050 0px 1px 2px;
     color: black;
@@ -431,15 +516,49 @@ div.featurette-image{
     padding: 0px 20px;
 }
 
-p.lead{
-	font-size: 1.0rem;
+.leadtext{
+	padding: 3em;
+	margin: auto;
 }
 
-.featurette-heading {
-    line-height: 1.1em !important;
-    padding-top: 1em;
-    padding-right: 1em;
-    margin-bottom: 20px;
+p.lead{
+	font-size: 1.0rem;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}
+
+.down-indicator{
+	display: block;
+	margin: auto;
+}
+
+@media screen and (max-width: 991px) {
+
+	.container.project{
+		padding-left: 0em;
+		padding-right: 0em;
+	}
+
+	div.projects{
+		padding: 2em;
+	}
+
+	.project-details{
+		border-radius: 6px;
+		padding: 0.5em;
+	}
+
+	.leadtext{
+		padding: 1em;
+	}
+
+	p.lead{
+		font-size: 0.6em;
+	}
+
+	.project-main-img{
+		height: 200px;
+	}
 }
 
 /*timeline*/
