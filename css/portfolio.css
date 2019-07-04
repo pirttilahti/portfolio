@@ -556,6 +556,12 @@ p.lead{
 	}
 }
 
+/*blog posts*/
+
+a.blog-links{
+	color: #2ad083;
+}
+
 /*timeline*/
 
 * {
