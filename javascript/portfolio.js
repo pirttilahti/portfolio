@@ -38,6 +38,24 @@ $("#timelinelink").click(function() {
 
 /*---projektikutsut---*/
 
+$("#thermal").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#thermal").offset().top
+    }, 200);
+});
+
+$("#thermal").one("click",function(){
+  $('.thermal-project').load("thermal.html", function(){
+  
+      $(".up1").click(function() {
+        $('#thermal-project').toggle();
+      });
+      $("#thermal").click(function(){
+        $('.thermal-project').toggle();
+      });   
+    });
+});
+
 $("#kaava").click(function() {
     $('html, body').animate({
         scrollTop: $("#kaava").offset().top
