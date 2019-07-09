@@ -236,6 +236,10 @@ width: 100%;
 	border-bottom-right-radius: 6px;
 }
 
+.thermal-main-img{
+	background-image: url(../img/thermal-web.jpg);
+}
+
 .kaava-main-img{
 	background-image: url(../img/kaava-mockup.jpg);
 }
