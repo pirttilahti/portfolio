@@ -42,6 +42,18 @@ $("#aboutlink").click(function() {
     }, 1000);
 });
 
+$("#projectslink2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#timeline").offset().top
+    }, 1000);
+});
+
+$("#aboutlink2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 1000);
+});
+
 /*---projektikutsut---*/
 
 $("#thermal").click(function() {
