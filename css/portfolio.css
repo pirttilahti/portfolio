@@ -478,14 +478,23 @@ ul.method > li:before {
     background-size: contain;
     background-repeat: no-repeat;
     margin-right:0.5em;   
-  }
 }
 
-/*--Contact--*/
+/*--about--*/
 
-div.contact{
+.about{
+	box-shadow: #f2eff3 -4px -8px 50px, #d0cad0 4px 8px 50px;
+	border-radius: 12px;
+	padding: 5em;
+	background: #fff;
+}
+
+
+/*--contact...*/
+
+.contact{
 	margin-top: 3rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 3rem;
 }
 
 .contact-details{
@@ -502,9 +511,9 @@ div.contact{
     margin: auto;
 }
 
-@media screen  and (max-width:  991px){
+@media screen  and (max-width:  600px){
 	.contact-img{
-		width: 40%;
+		width: 60%;
 		margin: auto !important;
    		display: block;
 	}
