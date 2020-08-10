@@ -434,7 +434,7 @@ div.method{
 .method li{
 	display: inline-block;
 	text-indent: -1.5em;
-    margin-left: 1.5em;
+    margin-left: 2.5em;
     color: #565353;
 }
 
@@ -448,7 +448,7 @@ div.method{
     box-shadow: #f2eff3 -4px -8px 50px, #d0cad0 4px 8px 50px;
     margin: 1.2rem;
     background-color: white;
-    padding-bottom: 2.5em;
+    padding: 1em;
     border-radius: 8px;
 }
 
