@@ -414,7 +414,7 @@ div.customers{
 /*--Method--*/
 div.method{
 	margin-top: 3rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 7rem;
 }
 
 .method-top{
@@ -493,8 +493,7 @@ ul.method > li:before {
 /*--contact...*/
 
 .contact{
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+    margin: 4em 0em 4em 0em;
 }
 
 .contact-details{
@@ -676,6 +675,7 @@ a.blog-links{
 
 .blog{
 	padding: 2em;
+	margin: 4rem 0rem 4rem 0rem;
 }
 
 .blog-container{
@@ -697,8 +697,7 @@ a.blog-links{
 
 /* The actual timeline (the vertical ruler) */
 #timeline{
-   	margin-top: 3rem;
-	margin-bottom: 1.5rem;
+    margin: 7rem 0rem 4rem 0rem;
 }
 
 .timeline {
