@@ -167,3 +167,21 @@ $("#libraryeva").one("click",function(){
       });   
     });
 });
+
+$("#fleet-manage").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#fleet-manage").offset().top
+    }, 200);
+});
+
+$("#fleet-manage").one("click",function(){
+  $('.library-project').load("fleet.html", function(){
+  
+      $(".up5").click(function() {
+        $('.fleet-project').toggle();
+      });
+      $("#fleet-manage").click(function(){
+        $('.fleet-project').toggle();
+      });   
+    });
+});
