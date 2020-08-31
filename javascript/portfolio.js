@@ -175,7 +175,7 @@ $("#fleet-manage").click(function() {
 });
 
 $("#fleet-manage").one("click",function(){
-  $('.library-project').load("fleet.html", function(){
+  $('.fleet-project').load("fleet.html", function(){
   
       $(".up5").click(function() {
         $('.fleet-project').toggle();
