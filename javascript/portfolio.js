@@ -8,7 +8,7 @@ $("#projectslink").click(function() {
 
 $("#customerslink2").click(function() {
     $('html, body').animate({
-        scrollTop: $("#timeline").offset().top
+        scrollTop: $("#customers").offset().top
     }, 1000);
 });
 
@@ -44,7 +44,7 @@ $("#aboutlink").click(function() {
 
 $("#projectslink2").click(function() {
     $('html, body').animate({
-        scrollTop: $("#timeline").offset().top
+        scrollTop: $("#projects").offset().top
     }, 1000);
 });
 
