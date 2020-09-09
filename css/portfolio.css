@@ -304,6 +304,11 @@ width: 100%;
 	border-top-right-radius: 6px;
 	border-bottom-right-radius: 6px;
 }
+
+.sales-main-img{
+	background-image: url(../img/sales-manager.jpg);
+}
+
 .fleet-main-img{
 	background-image: url(../img/fleet.jpg);
 }
