@@ -213,8 +213,10 @@ background: linear-gradient(225deg, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Fir
 	}
 }
 
-/*--Navbar-----------------------------------*/
-
+/*--buttons main page-----------------------------------*/
+#projectslink2{
+	margin-right: 0.5em;
+}
 /*--tausta---*/
 .navbar.bg-light{ 
 	background: white !important;
