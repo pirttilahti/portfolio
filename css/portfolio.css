@@ -870,4 +870,8 @@ p.timeline-text{
 	.about{
 		padding: 2em;
 	}
+	
+	.customers{
+	    padding: 1em 1em 5em 1em;
+	}
 }
