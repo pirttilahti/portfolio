@@ -872,6 +872,6 @@ p.timeline-text{
 	}
 	
 	.customers{
-	    padding: 1em 1em 5em 1em;
+	    padding: 1em 1em 5em 1em !important;
 	}
 }
