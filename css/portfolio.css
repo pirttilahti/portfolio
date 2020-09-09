@@ -861,3 +861,13 @@ p.timeline-text{
   	font-size: 2.5rem !important;
   }
 }
+
+@media screen and (max-width: 600px) {
+	 .row{
+		 margin: 0px !important;
+	}
+	
+	.about{
+		padding: 2em;
+	}
+}
