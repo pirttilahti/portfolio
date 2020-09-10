@@ -185,3 +185,21 @@ $("#fleet-manage").one("click",function(){
       });   
     });
 });
+
+$("#fleet-manage").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#fleet-manage").offset().top
+    }, 200);
+});
+
+$("#sales-manage").one("click",function(){
+  $('.sales-project').load("sales.html", function(){
+  
+      $(".up5").click(function() {
+        $('.sales-project').toggle();
+      });
+      $("#sales-manage").click(function(){
+        $('.sales-project').toggle();
+      });   
+    });
+});
