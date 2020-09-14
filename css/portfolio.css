@@ -658,10 +658,6 @@ p.lead{
 		padding: 0.5em;
 	}
 
-	.leadtext{
-		padding: 1em;
-	}
-
 	p.lead{
 		font-size: 1em;
 		padding-left: 1em;
@@ -674,6 +670,12 @@ p.lead{
 		height: 200px;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.leadtext{
+		padding: 1em;
+	}
+}	
 
 /*blog posts*/
 
