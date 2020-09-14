@@ -177,7 +177,7 @@ $("#fleet-manage").click(function() {
 $("#fleet-manage").one("click",function(){
   $('.fleet-project').load("fleet.html", function(){
   
-      $(".up5").click(function() {
+      $(".up6").click(function() {
         $('.fleet-project').toggle();
       });
       $("#fleet-manage").click(function(){
@@ -195,7 +195,7 @@ $("#fleet-manage").click(function() {
 $("#sales-manage").one("click",function(){
   $('.sales-project').load("sales.html", function(){
   
-      $(".up5").click(function() {
+      $(".up7").click(function() {
         $('.sales-project').toggle();
       });
       $("#sales-manage").click(function(){
