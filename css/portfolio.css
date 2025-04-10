@@ -898,6 +898,16 @@ h2.pageyear{
 	flex-grow: 0;
 }
 
+.background-layer.mrp{
+	background: linear-gradient(272.96deg, #3B3172 0.07%, #A578FF 99.92%);
+}
+.module2.mrp{
+	background-color: #9a7dbb;
+}
+.module-border-wrap2.mrp{
+	background: linear-gradient(to right,#a489db, rgb(156, 103, 199),#f1bbff);
+}
+
 .background-layer.alyenergia{
 	background: linear-gradient(92.96deg, #A578FF 0.08%, #66E77A 99.93%)
 }
