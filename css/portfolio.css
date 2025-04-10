@@ -118,7 +118,7 @@ padding-bottom: 0.5em;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(50% 50% at 50% 50%, #11133F 0%, #090922 100%);
+	background: radial-gradient(50% 50% at 50% 50%, #3b31724a 0%, #ffffff00);
 	height:480px;
 }
 
