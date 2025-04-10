@@ -1247,4 +1247,7 @@ p.timeline-text{
 	.customers{
 	    padding: 1em 1em 5em 1em !important;
 	}
+	.p-5{
+		padding: 1rem !important;
+	}
 }
