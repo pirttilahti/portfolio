@@ -316,7 +316,13 @@ background-color: #c4bbf7;
 		margin: 0em;
 	}
 }
-
+@media screen and (max-width: 550{
+	.h1{
+		line-height: 40px;
+        	margin-bottom: 16px;
+	}
+	
+}
 /*--buttons main page-----------------------------------*/
 
 #projectslink2{
@@ -652,7 +658,7 @@ ul.method > li:before {
 
 @media screen  and (max-width:  600px){
 	.contact-img{
-		width: 60%;
+		padding: 16px;
 		margin: auto !important;
    		display: block;
 	}
