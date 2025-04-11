@@ -978,6 +978,10 @@ section.work-section{
 	margin:auto;
 	background: linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%);
 	border-radius: 16px;
+	background: -webkit-linear-gradient(180deg, #131333, #04052a);
+    	background: linear-gradient(180deg, #131333, #04052a);
+	border:0.5px solid #3B3172;
+	box-shadow: 0 -28px 84px -24px #e2e8ff35 inset;
 
 }
 
