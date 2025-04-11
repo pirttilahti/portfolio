@@ -315,9 +315,12 @@ background-color: #c4bbf7;
 	.rectangle-image-container{
 		margin: 0em;
 	}
+	h3{
+		font-size: 1.63rem !important;
+	}
 }
 @media screen and (max-width: 550{
-	.h1{
+	h1{
 		line-height: 40px;
         	margin-bottom: 16px;
 	}
