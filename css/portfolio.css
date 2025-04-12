@@ -181,7 +181,7 @@ p.quote{
 		padding-bottom: 1.5em;
 	  }
 	.hero2{
-		height:670px;
+		height:670px !important;
 	}
 }
 
@@ -983,6 +983,7 @@ h2.pageyear{
 	max-width: 960px;
 	margin:auto;
 	gap:16px;
+	margin-bottom: 16px;
 
 }
 .KPIbackground{
