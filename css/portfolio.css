@@ -186,14 +186,14 @@ p.quote{
 }
 
 @media screen and (max-width:600px){
-	.KPIs{
+	.row.KPIs{
 		margin-bottom: 16px !important;
 	}
 }
 
 @media screen and (max-width:400px){
 	.hero2{
-		height:712px !important!
+		height: 712px !important;
 	}
 }
 
