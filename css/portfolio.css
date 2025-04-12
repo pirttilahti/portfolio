@@ -160,15 +160,8 @@ p.quote{
 	border-radius: 8px;
 }
 
-@m edia screen and (max-width: 1199px){
+@media screen and (max-width: 1199px){
 
-	h5{
-		font-size: 21px !important;
-	}
-
-	h6{
-		font-size: 16px !important;
-	}
 }
 
 @media screen and (max-width: 991px) {
@@ -193,6 +186,7 @@ p.quote{
 
 .container{
 	max-width: 1640px;
+	width:100%;
 }
 
 /* title */
@@ -984,6 +978,7 @@ h2.pageyear{
 
 section.work-section{
 	max-width: 960px;
+	width:100%;
 	margin:auto;
 	background: linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%);
 	border-radius: 16px;
