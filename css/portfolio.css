@@ -185,6 +185,18 @@ p.quote{
 	}
 }
 
+@media screen and (max-width:600px){
+	.KPIs{
+		margin-bottom: 16px !important;
+	}
+}
+
+@media screen and (max-width:400px){
+	.hero2{
+		height:712px !important!
+	}
+}
+
 /* overide bootstrap container */
 
 .container{
