@@ -903,7 +903,8 @@ h2.pageyear{
 	align-items: center;
 	padding: 40px;
 
-	width: 1440px;
+	max-width: 1440px;
+	width: 100%;
 
 	background: linear-gradient(92.96deg, #3B3172 0.08%, #FF83BD 99.93%);
 
@@ -922,11 +923,10 @@ h2.pageyear{
 }
 .module-border-wrap2.mrp{
 	background: linear-gradient(to right,#a489db, rgb(156, 103, 199),#f1bbff);
-	width: 100%;
 }
 
 .background-layer.alyenergia{
-	background: linear-gradient(92.96deg, #A578FF 0.08%, #66E77A 99.93%)
+	background: linear-gradient(92.96deg, #A578FF 0.08%, #66E77A 99.93%);
 	width: 100%;
 }
 .module2.alyenergia{
