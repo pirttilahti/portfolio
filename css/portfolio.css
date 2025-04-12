@@ -988,7 +988,7 @@ h2.pageyear{
 }
 .KPIbackground{
     box-shadow: rgba(226, 232, 255, 0.208) 0px -28px 84px -24px inset;
-    padding: 2em;
+    padding: 1em;
     background: linear-gradient(rgb(19, 19, 51), rgb(10, 12, 48));
     border-radius: 8px;
 
