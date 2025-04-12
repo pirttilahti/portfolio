@@ -180,6 +180,9 @@ p.quote{
 		padding-top: 1.5em;
 		padding-bottom: 1.5em;
 	  }
+	.hero2{
+		height:670px;
+	}
 }
 
 /* overide bootstrap container */
