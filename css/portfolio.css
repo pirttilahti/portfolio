@@ -425,6 +425,10 @@ width: 100%;
 	border-bottom-right-radius: 6px;
 }
 
+.CONFIGmain-img{
+	background-image: url(../img/configurator-computer.png);
+}
+
 .alyenergia-main-img{
 	background-image: url(../img/alyenergiamain.png);
 }
@@ -930,6 +934,12 @@ h2.pageyear{
 	background: linear-gradient(272.96deg, #3B3172 0.07%, #A578FF 99.92%);
 	width: 100%;
 }
+
+.background-layer.configuration{
+	background: linear-gradient(272.96deg, #FFBA6D 0.07%, #FB87C1 99.92%);
+	width: 100%;
+}
+
 .module2.mrp{
 	background-color: #9a7dbb;
 }
