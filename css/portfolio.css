@@ -374,11 +374,12 @@ background-color: #c4bbf7;
 
 div.project-hover:hover{
 	border-style: solid;
+	box-shadow: 0px 0px 40px #323241;
 }
 
 a.proj:hover{
 	text-decoration: none;
-	opacity: 0.5;
+	filter: hue-rotate(325deg);
 }
 
 div.projects{
