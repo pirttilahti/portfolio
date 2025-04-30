@@ -1140,7 +1140,7 @@ a.blog-links{
 }
 
 .blog-container:hover{
-	opacity: 50%;
+	filter: hue-rotate(325deg);
 }
 
 /*timeline*/
