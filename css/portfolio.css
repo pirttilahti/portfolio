@@ -701,8 +701,7 @@ ul.method > li:before {
 	Border-radius: 4px;
 	min-height: 400px;
 
-	background: -webkit-linear-gradient(180deg, #131333, #04052a);
-    background: linear-gradient(180deg, #131333, #04052a);
+    background: linear-gradient(244deg, #05051d 0.07%, #1f0d37 99.92%);
     border-radius: 8px;
 	box-shadow: 0 -28px 84px -24px #e2e8ff35 inset;
 }
@@ -749,10 +748,9 @@ div.featurette-image{
 
 #myproject{
 	
-	border-radius: 8px;
+	border-radius: 16px;
 	border-style:solid;
-	border-color:#3B3172
-	;
+	border-color:#2a2355;
 }
 
 .logos{
