@@ -98,12 +98,13 @@ h5{
 
 h5.featurette-heading{
 
-background: linear-gradient(90deg, #FFBA6D 0%, #FBE9BE 19.67%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-padding-bottom: 0.5em;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+color: #FFFFFF;
+
 }
 
 .hero{
@@ -130,6 +131,9 @@ p.quote{
 	font-optical-sizing: 5%;
 }
 
+p{
+	margin-bottom: 2em;
+}
 
 .greeting{
 	margin-bottom: auto;
@@ -682,7 +686,67 @@ ul.method > li:before {
 	margin-bottom: 1.5rem;
 }
 
+section.summary{
+max-width: 960px;
 
+background: #101132;
+box-shadow: inset 20px 20px 70px rgba(166, 120, 254, 0.25), inset 0px -28px 98px rgba(255, 255, 255, 0.1);
+border-radius: 8px;
+margin: auto;
+padding:1.8em;
+}
+
+section.case{
+	max-width: 960px;
+	margin: auto;
+}
+
+.section-title{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 40px;
+color: #FFFFFF;
+margin-bottom: 1em;
+}
+
+h6.method-title{
+/* IN SHORT */
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+height: 32px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+background: linear-gradient(90deg, #FFBA6D 0%, #FBE9BE 19.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+padding:0px;
+
+}
+
+h3.project-explanation{
+max-width:90%;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+/* or 143% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
 .featurette-heading{
 	padding-left: 2em;
 	padding-right: 2em;
@@ -817,8 +881,30 @@ div.featurette-image{
 
 p.lead{
 	font-size: 1.0rem;
-	padding-left: 2.5em;
-	padding-right: 2.5em;
+	color:rgb(219, 219, 219);
+}
+
+p.img-description{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-top: 1em;
+color: #797979;
+}
+
+p.item{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #ACA2C0;
+margin-bottom:0.8em;
+
 }
 
 .down-indicator{
@@ -862,7 +948,7 @@ p.lead{
 	gap: 10px;
 	margin: auto;
 	max-width: 1440px;
-	height: 580px;
+	height: 720px;
 
 
 	/* Inside auto layout */
@@ -993,7 +1079,7 @@ h2.pageyear{
 }
 
 .hero2-image{
-	max-height: 350px;
+	max-height: 500px;
 }
 
 .KPIs{
@@ -1030,6 +1116,59 @@ h2.pageyear{
 	font-weight: 320;
 }
 
+.outcomes-container{
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+background: #140a31;
+border: 1px solid #2b1a58;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.outcome-box{
+
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+background: #05051E;
+border: 1px solid #525252;
+border-radius: 8px;
+
+}
+
+p.highlight{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+display: flex;
+align-items: center;
+
+color: #FFBA6D;
+
+
+}
 
 
 section.work-section{
@@ -1043,11 +1182,6 @@ section.work-section{
 	border:0.5px solid #3B3172;
 	box-shadow: 0 -28px 84px -24px #e2e8ff35 inset;
 
-}
-
-.case-image-container{
-	margin-left:5.5rem;
-	margin-right:5.5rem;
 }
 
 .case-image{
