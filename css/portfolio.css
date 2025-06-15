@@ -187,6 +187,12 @@ p{
 	.hero2{
 		height:670px !important;
 	}
+	section.summary{
+		padding: 1.5em;
+	}
+	section.case{
+		padding: 1.5em;
+	}
 }
 
 @media screen and (max-width:600px){
