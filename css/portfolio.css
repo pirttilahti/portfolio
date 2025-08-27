@@ -108,6 +108,11 @@ color: #FFFFFF;
 
 }
 
+h5.details-heading{
+margin-bottom: 1.3rem;
+
+}
+
 .hero{
 	margin-top: 80px;
 	display: flex;
@@ -1460,5 +1465,6 @@ p.timeline-text{
 		padding: 1rem !important;
 	}
 }
+
 
 
