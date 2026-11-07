@@ -71,8 +71,32 @@
 	    			</div>
 	  			</div>
 			</div>
+			<div class="project">
+				<a class="proj" id="pricing" href="/portfolio/pricing.html">
+					            	<div class='row myproject project-hover' id="myproject">
+					            		
+											<div class='col-lg-6 col-md-4 col-ms-6 col-xs-12 project-details'>
+												<h5 class='details-heading'>Product Price Management as a Complex System <span class='text-muted'>(2026)</span></h5>
+										    <h6 class='details-subheading'>System</h6>
+												<p class='details-description'>ERP web application</p>
+										    <h6 class='details-subheading'>Work done</h6>
+										    <p class='details-description'>Research, Stakeholder management, System design, leading design efforts</p>
+										    <h6 class='details-subheading'>In short</h6>
+										    <p class='details-description'>Pricing is everywhere, everyone knows about it. Ask your neighbor, they will have an opinion. I helped explain pricing mechanisms to stakeholders while solving all their different problems in one system.</p>
+
+											</div>
+
+												<div class='col-lg-6 col-md-8 col-ms-6 col-xs-12 project-main-img-holder order-first order-md-2'>
+
+														<div class="project-main-img PRICINGmain-img">
+														</div>
+												</div>
+											
+					        		</div>											  
+									</a>
+							<br>
 						<div class="project">
-				<a class="proj" id="alyenergia" href="/portfolio/configurator.html">
+				<a class="proj" id="configurator" href="/portfolio/configurator.html">
 					            	<div class='row myproject project-hover' id="myproject">
 					            		
 											<div class='col-lg-6 col-md-4 col-ms-6 col-xs-12 project-details'>
@@ -96,7 +120,7 @@
 									</a>
 							<br>	
 			<div class="project">
-				<a class="proj" id="alyenergia" href="/portfolio/purchaseneed.html">
+				<a class="proj" id="purchaseneed" href="/portfolio/purchaseneed.html">
 					            	<div class='row myproject project-hover' id="myproject">
 					            		
 											<div class='col-lg-6 col-md-4 col-ms-6 col-xs-12 project-details'>
@@ -126,7 +150,7 @@
 					            	<div class='row myproject project-hover' id="myproject">
 					            		
 											<div class='col-lg-6 col-md-4 col-ms-6 col-xs-12 project-details'>
-												<h5 class='details-heading'>Highest rated electricity monitoring app in Finland<span class='text-muted'>(2020-present)</span></h5>
+												<h5 class='details-heading'>Highest rated electricity monitoring app in Finland<span class='text-muted'>(2020-2025)</span></h5>
 										    <h6 class='details-subheading'>System</h6>
 												<p class='details-description'> Mobile</p>
 										    <h6 class='details-subheading'>Work done</h6>
@@ -386,7 +410,7 @@
 		  particle.element.style.opacity = particle.opacity;
 		  
 		  // Add the particle to the container
-		  particle-container.appendChild(particle.element);
+		  container.appendChild(particle.element);
 		  
 		  return particle;
 		}
@@ -440,7 +464,7 @@
 			
 			// Remove particles that have faded out completely
 			if (particle.opacity <= 0) {
-			  particle-container.removeChild(particle.element);
+			  container.removeChild(particle.element);
 			  particles.splice(i, 1);
 			}
 		  }
@@ -451,12 +475,15 @@
 		
 		// Handle window resize
 		function handleResize() {
-		  containerWidth = particle-container.clientWidth;
-		  containerHeight = particle-container.clientHeight;
+		  if (!container) return;
+		  containerWidth = container.clientWidth;
+		  containerHeight = container.clientHeight;
 		}
 		
 		// Initialize the animation
 		function init() {
+		  if (!container) return;
+		  handleResize();
 		  createInitialParticles();
 		  window.addEventListener('resize', handleResize);
 		  requestAnimationFrame(updateParticles);
